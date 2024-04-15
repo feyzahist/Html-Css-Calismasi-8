@@ -1,0 +1,84 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainDiv{
+    margin:0 auto;
+    width:1115px;
+    height: 500px;
+}
+.text{
+    margin-left: 20px;
+    margin-bottom: 24px;
+    font-size:24px;
+    font-weight: 500;
+}
+.contextMenu{
+    display: flex;
+}
+.commonDiv{
+    width:22%;
+    height: 370px;
+    margin-left: 20px;
+    background-color: rgba(229, 243, 255, 0.4);
+    border-radius: 12px;
+    border: solid 2px #fff;
+    border-color: #0087FF;   
+}
+.commonText{
+    color: rgb(0, 135, 255);
+    font-size: 11px;
+    line-height: 12px;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.ortakPicture{
+    display: flex;
+   justify-content: center;
+}
+.bankText{
+    text-align: center;
+    color: rgb(19, 23, 23);
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+.faizMain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.commonFaiz{
+    margin-left: 10px;
+    margin-right:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.textFaiz{
+    padding: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top:16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px 10px 24px;
+    height: 50px;
+    line-height: 22px;
+    border-radius: 4px;
+    width: 220px;
+    background-color: rgb(0, 135, 255);
+}
+.button:hover{
+    background-color: rgb(0, 112, 211);
+}
+.buttonText{
+    color: white;
+}
